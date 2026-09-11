@@ -524,6 +524,48 @@
 
 
 
+    .qrcode-container {
+
+      margin-top: 25px;
+
+      padding: 15px;
+
+      background: rgba(255, 255, 255, 0.05);
+
+      border-radius: 12px;
+
+      display: inline-block;
+
+    }
+
+
+
+    .qrcode-container img {
+
+      border-radius: 8px;
+
+      background: #ffffff;
+
+      padding: 8px;
+
+    }
+
+
+
+    .qrcode-container span {
+
+      display: block;
+
+      margin-top: 8px;
+
+      font-size: 0.85rem;
+
+      color: #8b949e;
+
+    }
+
+
+
     @media (max-width: 600px) {
 
       .game-card {
@@ -647,6 +689,16 @@
 
 
     <div id="message"></div>
+
+
+
+    <div class="qrcode-container">
+
+      <img id="qrCodeImg" src="https://api.qrserver.com/v1/create-qr-code/?size=130x130&data=https%3A%2F%2Fyvenmateus7-bit.github.io%2Fjogo-reciclagem%2F" alt="QR Code do Jogo">
+
+      <span>Escaneie para jogar no celular</span>
+
+    </div>
 
   </div>
 
